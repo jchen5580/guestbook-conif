@@ -4,7 +4,7 @@ metadata:
   name: redis
   labels:
     name: redis-service
-    app: demo-voting-app
+    app: guestbook-app
 
 spec:
   ports:
@@ -12,4 +12,4 @@ spec:
       port: 6379
   selector:
       name: redis-pod
-      app: demo-voting-app
+      app: guestbook-app
